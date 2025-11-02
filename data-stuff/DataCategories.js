@@ -16,10 +16,10 @@ export const skillingSkills = ["cooking", "woodcutting", "fletching", "fishing",
 ];
 
 // boss and raid kc tiers
-export const tier1KC = 50; // 0-50 kc
-export const tier2KC = 500; // 51-500 kc
-export const tier3KC = 1000; // 500-1000 kc
-export const tier4KC = 2500; // 1001-2500 kc
+export const tier1KC = 0; // 0-50 kc
+export const tier2KC = 50; // 51-500 kc
+export const tier3KC = 500; // 500-1000 kc
+export const tier4KC = 1500; // 1001-2500 kc
 export const tier5KC = 2501; // 2501+ kc
 
 // bosses with cmb level 0-300
@@ -48,3 +48,10 @@ export const tobKC = ["theatre_of_blood", "theatre_of_blood_hard_mode"];
 
 // all cox raids
 export const coxKC = ["chambers_of_xeric", "chambers_of_xeric_challenge_mode"];
+
+// efficiency tiers
+export const tier1eff = 0; // 0-50 kc
+export const tier2eff = 100; // 51-500 kc
+export const tier3eff = 500; // 500-1000 kc
+export const tier4eff = 1500; // 1001-2500 kc
+export const tier5eff = 3001; // 2501+ kc

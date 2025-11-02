@@ -70,5 +70,9 @@ async function applyWeightsToPlayerSkills(){
         }
     })
 
+    console.log(weightedSkills[0]);
+
     return weightedSkills;
 }
+
+applyWeightsToPlayerSkills();
