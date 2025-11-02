@@ -1,10 +1,7 @@
 import { readFromFile, writeToFile } from "../json-stuff/Output.js";
 
-//use end values rather than gained values 
-
 export async function getParsedDataFromFile(filename){
     const data = await readFromFile(filename);
-
     return data;
 }
 

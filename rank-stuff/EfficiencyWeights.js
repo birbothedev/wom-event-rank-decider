@@ -1,26 +1,16 @@
 import { tier1eff, tier2eff, tier3eff, tier4eff, tier5eff } from "../data-stuff/DataCategories.js";
-import { readFromFile } from "../json-stuff/Output.js";
+import { readFromFile, writeToFile } from "../json-stuff/Output.js";
 
-function weighEfficiency(efficiency){
-    const effPoints = {};
-
-    for (const [eff, hours] of Object.entries(efficiency)){
-        let score = 0;
-        
-        if (hours >= tier5eff) score = 5;
-        else if (hours >= tier4eff) score = 4;
-        else if (hours >= tier3eff) score = 3;
-        else if (hours >= tier2eff) score = 2;
-        else if (hours >= tier1eff) score = 1;
-        else score = 0;
-
-        effPoints[eff] = score;
-    }
-
-    return effPoints;
+function weighEfficiency(hours){
+    if (hours >= tier5eff) return 5;
+    else if (hours >= tier4eff) return 4;
+    else if (hours >= tier3eff) return 3;
+    else if (hours >= tier2eff) return 2;
+    else if (hours >= tier1eff) return 1;
+    else return 0;
 }
 
-async function applyWeightsToPlayerEfficiency(){
+export async function applyWeightsToPlayerEfficiency(){
     const playerData = await readFromFile('cleaned-data');
 
     const playerEfficiency = playerData.map(player => ({
@@ -29,17 +19,16 @@ async function applyWeightsToPlayerEfficiency(){
     }));
 
     const weightedEfficiency = playerEfficiency.map(player => {
-        const ehpWeights = weighEfficiency(player.efficiency);
+        const ehpWeights = weighEfficiency(player.efficiency.ehp);
+        const ehbWeights = weighEfficiency(player.efficiency.ehb);
 
         return {
             playerName: player.playerName,
-            ehpWeights
+            ehpWeights,
+            ehbWeights
         }
     });
-
-    console.log(weighEfficiency[0]);
 
     return weightedEfficiency;
 }
 
-applyWeightsToPlayerEfficiency();

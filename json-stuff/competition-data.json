@@ -2,6 +2,7 @@
   {
     "playerName": "pvm items",
     "team": "The Jad Bods",
+    "accountType": "ironman",
     "startsAt": "2025-10-03T12:05:21.998Z",
     "endsAt": "2025-10-18T23:05:19.915Z",
     "data": {
@@ -2010,6 +2011,7 @@
   {
     "playerName": "very niceuuu",
     "team": "Binguuu",
+    "accountType": "ironman",
     "startsAt": "2025-10-03T12:00:59.018Z",
     "endsAt": "2025-10-18T23:45:03.721Z",
     "data": {
@@ -4018,6 +4020,7 @@
   {
     "playerName": "ld cyanne",
     "team": "CregsList",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:05:38.266Z",
     "endsAt": "2025-10-18T23:55:05.397Z",
     "data": {
@@ -6026,6 +6029,7 @@
   {
     "playerName": "dazandrah",
     "team": "CregsList",
+    "accountType": "ironman",
     "startsAt": "2025-10-03T12:10:09.835Z",
     "endsAt": "2025-10-18T23:45:00.105Z",
     "data": {
@@ -8034,6 +8038,7 @@
   {
     "playerName": "lkkle",
     "team": "Bowfa Not Required",
+    "accountType": "ironman",
     "startsAt": "2025-10-03T12:10:24.000Z",
     "endsAt": "2025-10-18T23:45:06.724Z",
     "data": {
@@ -10042,6 +10047,7 @@
   {
     "playerName": "spiritspoon",
     "team": "Real World Traders",
+    "accountType": "ironman",
     "startsAt": "2025-10-03T12:11:05.429Z",
     "endsAt": "2025-10-18T23:33:20.207Z",
     "data": {
@@ -12050,6 +12056,7 @@
   {
     "playerName": "gi mindblow",
     "team": "Don't Mind The Gap",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:00:20.941Z",
     "endsAt": "2025-10-18T23:45:01.062Z",
     "data": {
@@ -14058,6 +14065,7 @@
   {
     "playerName": "ironyog",
     "team": "Don't Mind The Gap",
+    "accountType": "ironman",
     "startsAt": "2025-10-03T12:03:04.776Z",
     "endsAt": "2025-10-18T22:21:02.690Z",
     "data": {
@@ -16066,6 +16074,7 @@
   {
     "playerName": "typical jon",
     "team": "Real World Traders",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:10:27.616Z",
     "endsAt": "2025-10-18T23:20:42.448Z",
     "data": {
@@ -18074,6 +18083,7 @@
   {
     "playerName": "ayeeecreg",
     "team": "CregsList",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:01:26.514Z",
     "endsAt": "2025-10-18T23:44:59.114Z",
     "data": {
@@ -20082,6 +20092,7 @@
   {
     "playerName": "ble4chy",
     "team": "Binguuu",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:02:25.063Z",
     "endsAt": "2025-10-18T23:45:01.983Z",
     "data": {
@@ -22090,6 +22101,7 @@
   {
     "playerName": "im imu",
     "team": "CregsList",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:00:07.089Z",
     "endsAt": "2025-10-18T23:54:56.728Z",
     "data": {
@@ -24098,6 +24110,7 @@
   {
     "playerName": "wi sh",
     "team": "Sprouting Legends",
+    "accountType": "ultimate",
     "startsAt": "2025-10-03T12:07:10.656Z",
     "endsAt": "2025-10-18T23:05:29.188Z",
     "data": {
@@ -26106,6 +26119,7 @@
   {
     "playerName": "abtw",
     "team": "CregsList",
+    "accountType": "ironman",
     "startsAt": "2025-10-03T12:09:00.014Z",
     "endsAt": "2025-10-18T23:44:10.747Z",
     "data": {
@@ -28114,6 +28128,7 @@
   {
     "playerName": "veek5",
     "team": "Real World Traders",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:03:13.119Z",
     "endsAt": "2025-10-18T23:45:05.615Z",
     "data": {
@@ -30122,6 +30137,7 @@
   {
     "playerName": "filofteia",
     "team": "Sprouting Legends",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:03:25.937Z",
     "endsAt": "2025-10-18T23:45:07.562Z",
     "data": {
@@ -32130,6 +32146,7 @@
   {
     "playerName": "major mahi",
     "team": "Real World Traders",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:06:57.696Z",
     "endsAt": "2025-10-18T23:45:01.349Z",
     "data": {
@@ -34138,6 +34155,7 @@
   {
     "playerName": "d ke",
     "team": "Binguuu",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:06:17.264Z",
     "endsAt": "2025-10-18T23:05:19.222Z",
     "data": {
@@ -36146,6 +36164,7 @@
   {
     "playerName": "diggydogsp",
     "team": "Don't Mind The Gap",
+    "accountType": "ironman",
     "startsAt": "2025-10-03T12:05:26.257Z",
     "endsAt": "2025-10-18T23:05:28.628Z",
     "data": {
@@ -38154,6 +38173,7 @@
   {
     "playerName": "enzoironyeen",
     "team": "Don't Mind The Gap",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:01:01.701Z",
     "endsAt": "2025-10-18T23:05:26.687Z",
     "data": {
@@ -40162,6 +40182,7 @@
   {
     "playerName": "mpagas",
     "team": "Don't Mind The Gap",
+    "accountType": "ironman",
     "startsAt": "2025-10-03T12:00:02.173Z",
     "endsAt": "2025-10-18T23:05:45.533Z",
     "data": {
@@ -42170,6 +42191,7 @@
   {
     "playerName": "weedily",
     "team": "Fartyrs",
+    "accountType": "regular",
     "startsAt": "2025-10-03T19:01:48.076Z",
     "endsAt": "2025-10-18T23:45:01.585Z",
     "data": {
@@ -44178,6 +44200,7 @@
   {
     "playerName": "the mail man",
     "team": "The Jad Bods",
+    "accountType": "ironman",
     "startsAt": "2025-10-03T12:05:07.047Z",
     "endsAt": "2025-10-18T23:05:34.686Z",
     "data": {
@@ -46186,6 +46209,7 @@
   {
     "playerName": "f r ee l o",
     "team": "Binguuu",
+    "accountType": "ironman",
     "startsAt": "2025-10-03T12:11:21.307Z",
     "endsAt": "2025-10-18T23:45:04.933Z",
     "data": {
@@ -48194,6 +48218,7 @@
   {
     "playerName": "blaatina",
     "team": "Binguuu",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:08:53.510Z",
     "endsAt": "2025-10-18T23:45:03.721Z",
     "data": {
@@ -50202,6 +50227,7 @@
   {
     "playerName": "effort low",
     "team": "Sprouting Legends",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:04:22.418Z",
     "endsAt": "2025-10-18T23:45:09.378Z",
     "data": {
@@ -52210,6 +52236,7 @@
   {
     "playerName": "m imik",
     "team": "Binguuu",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:09:44.520Z",
     "endsAt": "2025-10-18T23:05:26.417Z",
     "data": {
@@ -54218,6 +54245,7 @@
   {
     "playerName": "leluka james",
     "team": "Fartyrs",
+    "accountType": "ironman",
     "startsAt": "2025-10-03T12:08:59.057Z",
     "endsAt": "2025-10-18T23:45:00.657Z",
     "data": {
@@ -56226,6 +56254,7 @@
   {
     "playerName": "king drater",
     "team": "Binguuu",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:06:46.846Z",
     "endsAt": "2025-10-18T23:45:07.530Z",
     "data": {
@@ -58234,6 +58263,7 @@
   {
     "playerName": "astrovial",
     "team": "The Jad Bods",
+    "accountType": "ironman",
     "startsAt": "2025-10-03T12:01:26.368Z",
     "endsAt": "2025-10-18T23:05:46.118Z",
     "data": {
@@ -60242,6 +60272,7 @@
   {
     "playerName": "ron redberry",
     "team": "Bowfa Not Required",
+    "accountType": "ironman",
     "startsAt": "2025-10-03T12:05:54.869Z",
     "endsAt": "2025-10-18T23:05:45.286Z",
     "data": {
@@ -62250,6 +62281,7 @@
   {
     "playerName": "im vicona",
     "team": "Real World Traders",
+    "accountType": "ironman",
     "startsAt": "2025-10-03T12:00:01.295Z",
     "endsAt": "2025-10-18T23:45:07.303Z",
     "data": {
@@ -64258,6 +64290,7 @@
   {
     "playerName": "deposit 0",
     "team": "CregsList",
+    "accountType": "ultimate",
     "startsAt": "2025-10-03T12:07:10.403Z",
     "endsAt": "2025-10-18T22:11:27.959Z",
     "data": {
@@ -66266,6 +66299,7 @@
   {
     "playerName": "rosebalt",
     "team": "Sprouting Legends",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:07:23.974Z",
     "endsAt": "2025-10-18T23:05:20.006Z",
     "data": {
@@ -68274,6 +68308,7 @@
   {
     "playerName": "baby torchic",
     "team": "Sprouting Legends",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:11:56.307Z",
     "endsAt": "2025-10-18T23:05:17.351Z",
     "data": {
@@ -70282,6 +70317,7 @@
   {
     "playerName": "ldmadmike887",
     "team": "Bowfa Not Required",
+    "accountType": "ironman",
     "startsAt": "2025-10-03T12:05:41.780Z",
     "endsAt": "2025-10-18T23:44:57.532Z",
     "data": {
@@ -72290,6 +72326,7 @@
   {
     "playerName": "gfe zanothe",
     "team": "Don't Mind The Gap",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:09:59.728Z",
     "endsAt": "2025-10-18T22:26:57.025Z",
     "data": {
@@ -74298,6 +74335,7 @@
   {
     "playerName": "varrock h4rd",
     "team": "Fartyrs",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:11:08.842Z",
     "endsAt": "2025-10-18T23:20:51.629Z",
     "data": {
@@ -76306,6 +76344,7 @@
   {
     "playerName": "nerdfighter",
     "team": "Don't Mind The Gap",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:07:43.627Z",
     "endsAt": "2025-10-18T23:05:26.365Z",
     "data": {
@@ -78314,6 +78353,7 @@
   {
     "playerName": "ribbited",
     "team": "Real World Traders",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:08:10.627Z",
     "endsAt": "2025-10-18T23:05:17.341Z",
     "data": {
@@ -80322,6 +80362,7 @@
   {
     "playerName": "zpereghost",
     "team": "Binguuu",
+    "accountType": "ironman",
     "startsAt": "2025-10-03T12:07:59.523Z",
     "endsAt": "2025-10-18T23:54:41.920Z",
     "data": {
@@ -82330,6 +82371,7 @@
   {
     "playerName": "agent clunk",
     "team": "Fartyrs",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:10:07.553Z",
     "endsAt": "2025-10-18T23:05:25.017Z",
     "data": {
@@ -84338,6 +84380,7 @@
   {
     "playerName": "positiviteit",
     "team": "CregsList",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:07:34.139Z",
     "endsAt": "2025-10-18T23:05:42.096Z",
     "data": {
@@ -86346,6 +86389,7 @@
   {
     "playerName": "notyourironn",
     "team": "Bowfa Not Required",
+    "accountType": "ironman",
     "startsAt": "2025-10-03T12:10:35.811Z",
     "endsAt": "2025-10-18T23:05:41.692Z",
     "data": {
@@ -88354,6 +88398,7 @@
   {
     "playerName": "oldnullifier",
     "team": "Don't Mind The Gap",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:07:57.598Z",
     "endsAt": "2025-10-18T23:05:40.343Z",
     "data": {
@@ -90362,6 +90407,7 @@
   {
     "playerName": "kiwilychee",
     "team": "Sprouting Legends",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:02:49.784Z",
     "endsAt": "2025-10-18T23:45:01.307Z",
     "data": {
@@ -92370,6 +92416,7 @@
   {
     "playerName": "baby jolteon",
     "team": "The Jad Bods",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:09:29.924Z",
     "endsAt": "2025-10-18T23:05:16.277Z",
     "data": {
@@ -94378,6 +94425,7 @@
   {
     "playerName": "no hick zone",
     "team": "Fartyrs",
+    "accountType": "ironman",
     "startsAt": "2025-10-03T12:06:27.759Z",
     "endsAt": "2025-10-18T23:05:42.057Z",
     "data": {
@@ -96386,6 +96434,7 @@
   {
     "playerName": "ethamiel",
     "team": "The Jad Bods",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:03:24.485Z",
     "endsAt": "2025-10-18T23:45:03.515Z",
     "data": {
@@ -98394,6 +98443,7 @@
   {
     "playerName": "martyrs",
     "team": "CregsList",
+    "accountType": "ironman",
     "startsAt": "2025-10-04T11:21:27.478Z",
     "endsAt": "2025-10-18T23:05:35.592Z",
     "data": {
@@ -100402,6 +100452,7 @@
   {
     "playerName": "thefeodyssey",
     "team": "Fartyrs",
+    "accountType": "ironman",
     "startsAt": "2025-10-03T12:00:18.526Z",
     "endsAt": "2025-10-18T23:45:06.307Z",
     "data": {
@@ -102410,6 +102461,7 @@
   {
     "playerName": "hcknchnkeres",
     "team": "Don't Mind The Gap",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:09:47.039Z",
     "endsAt": "2025-10-18T23:47:27.422Z",
     "data": {
@@ -104418,6 +104470,7 @@
   {
     "playerName": "kola awalah",
     "team": "Real World Traders",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:05:52.645Z",
     "endsAt": "2025-10-18T23:05:42.304Z",
     "data": {
@@ -106426,6 +106479,7 @@
   {
     "playerName": "c logging",
     "team": "Fartyrs",
+    "accountType": "ironman",
     "startsAt": "2025-10-03T12:06:32.698Z",
     "endsAt": "2025-10-18T23:05:31.719Z",
     "data": {
@@ -108434,6 +108488,7 @@
   {
     "playerName": "arrogancy",
     "team": "Bowfa Not Required",
+    "accountType": "regular",
     "startsAt": "2025-10-03T15:20:17.487Z",
     "endsAt": "2025-10-18T23:05:44.289Z",
     "data": {
@@ -110442,6 +110497,7 @@
   {
     "playerName": "olmanvayren",
     "team": "Binguuu",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:01:12.030Z",
     "endsAt": "2025-10-18T23:45:07.436Z",
     "data": {
@@ -112450,6 +112506,7 @@
   {
     "playerName": "rekriah",
     "team": "Real World Traders",
+    "accountType": "ironman",
     "startsAt": "2025-10-03T12:04:30.510Z",
     "endsAt": "2025-10-18T23:05:34.267Z",
     "data": {
@@ -114458,6 +114515,7 @@
   {
     "playerName": "splintertwin",
     "team": "CregsList",
+    "accountType": "ironman",
     "startsAt": "2025-10-03T12:02:52.996Z",
     "endsAt": "2025-10-18T23:05:21.712Z",
     "data": {
@@ -116466,6 +116524,7 @@
   {
     "playerName": "goopy bungus",
     "team": "Real World Traders",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:03:26.381Z",
     "endsAt": "2025-10-18T23:45:01.859Z",
     "data": {
@@ -118474,6 +118533,7 @@
   {
     "playerName": "ajcaw",
     "team": "Real World Traders",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:04:29.295Z",
     "endsAt": "2025-10-18T23:05:23.504Z",
     "data": {
@@ -120482,6 +120542,7 @@
   {
     "playerName": "lonelyluni",
     "team": "Sprouting Legends",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:08:11.873Z",
     "endsAt": "2025-10-18T23:05:30.706Z",
     "data": {
@@ -122490,6 +122551,7 @@
   {
     "playerName": "ezsnowball",
     "team": "Bowfa Not Required",
+    "accountType": "ironman",
     "startsAt": "2025-10-03T12:02:51.979Z",
     "endsAt": "2025-10-18T23:05:21.706Z",
     "data": {
@@ -124498,6 +124560,7 @@
   {
     "playerName": "gimtunabarge",
     "team": "CregsList",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:01:52.673Z",
     "endsAt": "2025-10-18T23:05:45.628Z",
     "data": {
@@ -126506,6 +126569,7 @@
   {
     "playerName": "ivyton",
     "team": "The Jad Bods",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:01:16.536Z",
     "endsAt": "2025-10-18T23:52:26.973Z",
     "data": {
@@ -128514,6 +128578,7 @@
   {
     "playerName": "aj mvp",
     "team": "Don't Mind The Gap",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:09:17.018Z",
     "endsAt": "2025-10-18T23:05:37.689Z",
     "data": {
@@ -130522,6 +130587,7 @@
   {
     "playerName": "rocket ship",
     "team": "Fartyrs",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:08:08.669Z",
     "endsAt": "2025-10-18T23:45:01.098Z",
     "data": {
@@ -132530,6 +132596,7 @@
   {
     "playerName": "kribbed",
     "team": "Sprouting Legends",
+    "accountType": "ironman",
     "startsAt": "2025-10-03T12:09:30.593Z",
     "endsAt": "2025-10-18T23:05:35.010Z",
     "data": {
@@ -134538,6 +134605,7 @@
   {
     "playerName": "iron zyc",
     "team": "The Jad Bods",
+    "accountType": "ironman",
     "startsAt": "2025-10-03T12:08:57.821Z",
     "endsAt": "2025-10-18T23:05:42.185Z",
     "data": {
@@ -136546,6 +136614,7 @@
   {
     "playerName": "drew p",
     "team": "Sprouting Legends",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:02:44.767Z",
     "endsAt": "2025-10-18T23:45:00.282Z",
     "data": {
@@ -138554,6 +138623,7 @@
   {
     "playerName": "mutagens",
     "team": "Binguuu",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:02:47.778Z",
     "endsAt": "2025-10-18T23:05:15.790Z",
     "data": {
@@ -140562,6 +140632,7 @@
   {
     "playerName": "felchie",
     "team": "Bowfa Not Required",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:02:24.008Z",
     "endsAt": "2025-10-18T23:05:44.557Z",
     "data": {
@@ -142570,6 +142641,7 @@
   {
     "playerName": "gimp tissue",
     "team": "Bowfa Not Required",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:10:38.134Z",
     "endsAt": "2025-10-18T23:05:45.627Z",
     "data": {
@@ -144578,6 +144650,7 @@
   {
     "playerName": "gladmike887",
     "team": "Bowfa Not Required",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:03:02.762Z",
     "endsAt": "2025-10-18T23:05:25.532Z",
     "data": {
@@ -146586,6 +146659,7 @@
   {
     "playerName": "throat hug",
     "team": "The Jad Bods",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:03:45.562Z",
     "endsAt": "2025-10-18T23:05:28.290Z",
     "data": {
@@ -148594,6 +148668,7 @@
   {
     "playerName": "r u n i c",
     "team": "Bowfa Not Required",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:09:31.397Z",
     "endsAt": "2025-10-18T23:05:29.916Z",
     "data": {
@@ -150602,6 +150677,7 @@
   {
     "playerName": "mitochondiva",
     "team": "Fartyrs",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:00:05.423Z",
     "endsAt": "2025-10-18T23:05:38.476Z",
     "data": {
@@ -152610,6 +152686,7 @@
   {
     "playerName": "onlysub",
     "team": "The Jad Bods",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:01:04.545Z",
     "endsAt": "2025-10-18T23:05:37.447Z",
     "data": {
@@ -154618,6 +154695,7 @@
   {
     "playerName": "iron pyke",
     "team": "The Jad Bods",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:06:07.128Z",
     "endsAt": "2025-10-18T23:05:14.642Z",
     "data": {
@@ -156626,6 +156704,7 @@
   {
     "playerName": "baby gible",
     "team": "Sprouting Legends",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:10:49.669Z",
     "endsAt": "2025-10-18T23:05:24.302Z",
     "data": {
@@ -158634,6 +158713,7 @@
   {
     "playerName": "pappy sucker",
     "team": "Fartyrs",
+    "accountType": "regular",
     "startsAt": "2025-10-03T12:07:20.955Z",
     "endsAt": "2025-10-18T23:05:35.217Z",
     "data": {
