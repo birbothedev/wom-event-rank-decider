@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --color-mainbackground: hsl(26 100% 93%);
+  --color-darkbackground: hsl(26 100% 88%);
+  --color-lightbackground: hsl(26 100% 98%);
+  --color-text: hsl(352 100% 6%);
+  --color-hovertext: hsl(27 100% 91%);
+  --color-textmuted: hsl(30 100% 17%);
+  --color-highlight: hsl(27 100% 94%);
+  --color-border: hsl(33 97% 37%);
+  --color-bordermuted: hsl(29 71% 54%);
+  --color-primary: hsl(30 100% 17%);
+  --color-secondary: hsl(200 100% 18%);
+  --color-danger: hsl(7 55% 41%);
+  --color-warning: hsl(53 100% 14%);
+  --color-success: hsl(161 100% 15%);
+  --color-info: hsl(217 58% 44%);
+}
+
+:root {
+  --bg-dark: hsl(26 100% 88%);
+  --bg: hsl(26 100% 93%);
+  --bg-light: hsl(26 100% 98%);
+  --text: hsl(352 100% 6%);
+  --text-muted: hsl(30 100% 17%);
+  --highlight: hsl(27 100% 94%);
+  --border: hsl(33 97% 37%);
+  --border-muted: hsl(29 71% 54%);
+  --primary: hsl(30 100% 17%);
+  --secondary: hsl(200 100% 18%);
+  --danger: hsl(7 55% 41%);
+  --warning: hsl(53 100% 14%);
+  --success: hsl(161 100% 15%);
+  --info: hsl(217 58% 44%);
+
+  width: 100%;
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  padding-top: 6.5%;
+}
+
+.scrollbar-custom::-webkit-scrollbar {
+  width: 8px;
+  overscroll-behavior: contain;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  background-color: hsl(30 100% 17%);
+  border-radius: 9999px;
+  overscroll-behavior: contain;
+}
