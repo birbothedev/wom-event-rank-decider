@@ -1,9 +1,12 @@
 import React from 'react'
+import SideBar from '../components/SideBar'
+import Dashboard from '../components/Dashboard'
 
 const EventDashboard = () => {
     return (
-        <div className="flex flex-col justify-center items-center w-full min-h-screen">
-            event dashboard :D
+        <div className="p-4 grid grid-gap-4 grid-cols-[220px_1fr]">
+            <SideBar />
+            <Dashboard />
         </div>
     )
 }

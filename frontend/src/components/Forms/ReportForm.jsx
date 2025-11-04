@@ -42,14 +42,14 @@ export function ReportForm({ isOpen, onClose }){
     if (!canSubmit) return (
         <div className="fixed inset-0 backdrop-blur-sm flex justify-center items-center z-110">
             <div className="w-2xl flex flex-col gap-2">
-                <button className="text-2xl place-self-end cursor-pointer hover:bg-secondary/60 rounded-full px-3 pt-1 pb-2 flex text-center items-center justify-center hover:text-darkblue" onClick={onClose}>
+                <button className="text-2xl place-self-end cursor-pointer hover:bg-bordermuted/60 rounded-full px-3 pt-1 pb-2 flex text-center items-center justify-center hover:text-darkblue" onClick={onClose}>
                     ×
                 </button>
-                <div className="bg-darkbackground p-4 rounded-2xl flex flex-col gap-.5">
+                <div className="bg-primary/20 p-4 rounded-2xl flex flex-col gap-.5">
                 <div className="border-primary border-3 rounded-2xl p-4">
                     <div className="py-4 px-4 pl-1 rounded-full text-3xl font-bold">Report Submitted</div>
                     <div className="py-4 px-4 pl-1 rounded-full text-xl font-bold">Thank you for your report.</div>
-                    <button className="text-xl place-self-end cursor-pointer hover:bg-secondary/60 rounded-full px-3 pt-1 pb-2 flex text-center items-center justify-center hover:text-darkblue" 
+                    <button className="text-xl place-self-end cursor-pointer hover:bg-bordermuted/60 rounded-full px-3 pt-1 pb-2 flex text-center items-center justify-center hover:text-darkblue" 
                         onClick={() =>{
                             setCanSubmit(true)
                             setFormContent({ username: "", subject: "", description: "" })
@@ -68,10 +68,10 @@ export function ReportForm({ isOpen, onClose }){
     return (
         <div className="fixed inset-0 backdrop-blur-sm flex justify-center items-center z-110">
             <div className="w-2xl flex flex-col gap-2">
-                <button className="text-2xl place-self-end cursor-pointer hover:bg-secondary/60 hover:text-hovertext rounded-full px-3 pt-1 pb-2 flex text-center items-center justify-center" onClick={onClose}>
+                <button className="text-2xl place-self-end cursor-pointer hover:bg-bordermuted/60 hover:text-hovertext rounded-full px-3 pt-1 pb-2 flex text-center items-center justify-center" onClick={onClose}>
                     ×
                 </button>
-                <div className="bg-darkbackground p-4 rounded-2xl flex flex-col gap-4">
+                <div className="bg-primary/20 p-4 rounded-2xl flex flex-col gap-4">
                     <div className="py-4 px-4 pl-1 rounded-full text-3xl font-bold">Report an Issue</div>
                     <form className="border-primary border-3 rounded-2xl p-4 text-md flex flex-col gap-4">
                         <>
@@ -147,7 +147,7 @@ export function ReportForm({ isOpen, onClose }){
                             </div>
                         )}
                     </form>
-                    <button className="text-xl place-self-end cursor-pointer hover:bg-secondary/60 rounded-full px-3 pt-1 pb-2 flex text-center items-center justify-center hover:text-darkblue" 
+                    <button className="text-xl place-self-end cursor-pointer hover:bg-bordermuted/60 rounded-full px-3 pt-1 pb-2 flex text-center items-center justify-center hover:text-darkblue" 
                     onClick={handleSubmit}
                     >
                         Submit

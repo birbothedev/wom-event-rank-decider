@@ -43,9 +43,10 @@ body {
   min-height: 100vh;
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   background-color: var(--bg);
-  color: var(--text);
+  color: var(--text-muted);
   padding-top: 6.5%;
 }
+
 
 .scrollbar-custom::-webkit-scrollbar {
   width: 8px;
