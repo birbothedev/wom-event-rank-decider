@@ -16,13 +16,13 @@ const NavBar = () => {
 
     return (
         <>
-        <div className="fixed bg-darkbackground/60 flex justify-between items-center gap-16 py-3 px-10 left-1/2 translate-x-[-50%] top-5 rounded-full backdrop-blur-md shadow-lg z-100"
+        <div className="fixed bg-lightbackground/80 flex justify-between items-center gap-16 py-3 px-10 left-1/2 translate-x-[-50%] top-5 rounded-full backdrop-blur-md shadow-lg z-100 border-border border-2"
             >
                 <ul className="flex gap-8 text-xl">
                     {listItems.map((item) => (
                         <li className="relative group cursor-pointer " key={item.title}>
                             <a href={item.link}>{item.title}</a> 
-                            <span className="absolute left-0 bottom-[-5px] w-0 h-1 rounded-xl bg-bordermuted transition-all duration-300 group-hover:w-full "></span>
+                            <span className="absolute left-0 bottom-[-5px] w-0 h-1 rounded-xl bg-highlight transition-all duration-300 group-hover:w-full "></span>
                         </li>
                     ))}
                 </ul>

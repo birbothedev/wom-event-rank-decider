@@ -95,55 +95,58 @@ const EventInfoBox = () => {
 
     return (
     <>
-        <DeleteButton handleDelete={handleDelete} />
-        <div className="overflow-x-auto max-h-96 rounded-lg border-2 border-border scrollbar-custom shadow-xl">
-        <table className="min-w-full divide-y divide-border">
-            <thead className="bg-primary/40 sticky top-0 z-10 backdrop-blur-sm">
-            {table.getHeaderGroups().map(headerGroup => (
-                <tr key={headerGroup.id}>
-                    {headerGroup.headers.map(header => (
-                    <th
-                        key={header.id}
-                        className="px-4 py-2 text-left text-sm font-medium text-text cursor-pointer select-none"
-                        onClick={header.column.getToggleSortingHandler()}
-                    >
-                        <div className="flex items-center">
-                            {flexRender(header.column.columnDef.header, header.getContext())}
-                            {header.column.getCanSort() && (
-                            <span className=" ml-1">
-                                <FiChevronUp
-                                className={`w-3 h-3 ${header.column.getIsSorted() === "asc" ? "text-text" : "text-border"}`}
-                                />
-                                <FiChevronDown
-                                className={`w-3 h-3 ${header.column.getIsSorted() === "desc" ? "text-text" : "text-border"}`}
-                                />
-                            </span>
-                            )}
-                        </div>
-                    </th>
-                    ))}
-                </tr>
-            ))}
-            </thead>
-            <tbody className="divide-y divide-border">
-            {table.getRowModel().rows.map(row => (
-                <tr
-                key={row.id}
-                className="hover:bg-primary/40 even:bg-primary/20"
-                >
-                {row.getVisibleCells().map(cell => (
-                    <td
-                    key={cell.id}
-                    className="px-4 py-2 text-sm text-text/90"
-                    >
-                    {flexRender(cell.column.columnDef.cell, cell.getContext())}
-                    </td>
+        <div className="flex flex-col h-[600px]">
+            <DeleteButton handleDelete={handleDelete} />
+            <div className="overflow-x-auto flex-1 rounded-lg border-2 border-border scrollbar-custom shadow-xl">
+            <table className="min-w-full min-h-full divide-y divide-border">
+                <thead className="bg-primary/40 sticky top-0 z-10 backdrop-blur-sm">
+                {table.getHeaderGroups().map(headerGroup => (
+                    <tr key={headerGroup.id}>
+                        {headerGroup.headers.map(header => (
+                        <th
+                            key={header.id}
+                            className="px-4 py-2 text-left text-sm font-medium text-text cursor-pointer select-none"
+                            onClick={header.column.getToggleSortingHandler()}
+                        >
+                            <div className="flex items-center">
+                                {flexRender(header.column.columnDef.header, header.getContext())}
+                                {header.column.getCanSort() && (
+                                <span className=" ml-1">
+                                    <FiChevronUp
+                                    className={`w-3 h-3 ${header.column.getIsSorted() === "asc" ? "text-text" : "text-textmuted/60"}`}
+                                    />
+                                    <FiChevronDown
+                                    className={`w-3 h-3 ${header.column.getIsSorted() === "desc" ? "text-text" : "text-textmuted/60"}`}
+                                    />
+                                </span>
+                                )}
+                            </div>
+                        </th>
+                        ))}
+                    </tr>
                 ))}
-                </tr>
-            ))}
-            </tbody>
-        </table>
+                </thead>
+                <tbody className="divide-y divide-border">
+                {table.getRowModel().rows.map(row => (
+                    <tr
+                    key={row.id}
+                    className="hover:bg-primary/40 even:bg-primary/20"
+                    >
+                    {row.getVisibleCells().map(cell => (
+                        <td
+                        key={cell.id}
+                        className="px-4 py-2 text-sm text-text/90"
+                        >
+                        {flexRender(cell.column.columnDef.cell, cell.getContext())}
+                        </td>
+                    ))}
+                    </tr>
+                ))}
+                </tbody>
+            </table>
+            </div>            
         </div>
+
     </>
     )
 }

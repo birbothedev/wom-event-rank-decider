@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  --color-mainbackground: hsl(26 100% 93%);
+  /* --color-mainbackground: hsl(26 100% 93%);
   --color-darkbackground: hsl(26 100% 88%);
   --color-lightbackground: hsl(26 100% 98%);
   --color-text: hsl(352 100% 6%);
@@ -15,11 +15,27 @@
   --color-danger: hsl(7 55% 41%);
   --color-warning: hsl(53 100% 14%);
   --color-success: hsl(161 100% 15%);
-  --color-info: hsl(217 58% 44%);
+  --color-info: hsl(217 58% 44%); */
+
+  --color-mainbackground: hsl(320 44% 5%);
+  --color-darkbackground: hsl(323 67% 2%);
+  --color-lightbackground: hsl(320 26% 9%);
+  --color-text: hsl(322 100% 97%);
+  --color-hovertext: hsl(27 100% 91%);
+  --color-textmuted: hsl(322 24% 72%);
+  --color-highlight: hsl(321 15% 41%);
+  --color-border: hsl(320 19% 30%);
+  --color-bordermuted: hsl(320 28% 19%);
+  --color-primary: hsl(320 50% 73%);
+  --color-secondary: hsl(149 41% 62%);
+  --color-danger: hsl(9 26% 64%);
+  --color-warning: hsl(52 19% 57%);
+  --color-success: hsl(146 17% 59%);
+  --color-info: hsl(217 28% 65%);
 }
 
 :root {
-  --bg-dark: hsl(26 100% 88%);
+  /* --bg-dark: hsl(26 100% 88%);
   --bg: hsl(26 100% 93%);
   --bg-light: hsl(26 100% 98%);
   --text: hsl(352 100% 6%);
@@ -32,7 +48,22 @@
   --danger: hsl(7 55% 41%);
   --warning: hsl(53 100% 14%);
   --success: hsl(161 100% 15%);
-  --info: hsl(217 58% 44%);
+  --info: hsl(217 58% 44%); */
+
+  --bg-dark: hsl(323 67% 2%);
+  --bg: hsl(320 44% 5%);
+  --bg-light: hsl(320 26% 9%);
+  --text: hsl(322 100% 97%);
+  --text-muted: hsl(322 24% 72%);
+  --highlight: hsl(321 15% 41%);
+  --border: hsl(320 19% 30%);
+  --border-muted: hsl(320 28% 19%);
+  --primary: hsl(320 50% 73%);
+  --secondary: hsl(149 41% 62%);
+  --danger: hsl(9 26% 64%);
+  --warning: hsl(52 19% 57%);
+  --success: hsl(146 17% 59%);
+  --info: hsl(217 28% 65%);
 
   width: 100%;
   min-height: 100vh;
@@ -43,7 +74,7 @@ body {
   min-height: 100vh;
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   background-color: var(--bg);
-  color: var(--text-muted);
+  color: var(--text);
   padding-top: 6.5%;
 }
 
@@ -54,7 +85,7 @@ body {
 }
 
 .scrollbar-custom::-webkit-scrollbar-thumb {
-  background-color: hsl(30 100% 17%);
+  background-color: hsl(322 24% 72%);
   border-radius: 9999px;
   overscroll-behavior: contain;
 }

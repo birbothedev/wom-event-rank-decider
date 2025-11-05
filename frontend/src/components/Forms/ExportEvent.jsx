@@ -3,6 +3,8 @@ import { useState } from "react"
 export function ExportEvent({ isOpen, onClose }){
     if (!isOpen) return null
 
+    // export event as json or txt
+
     return (
         <div className="fixed inset-0 backdrop-blur-sm flex justify-center items-center z-110">
             <div className="w-2xl flex flex-col gap-2">

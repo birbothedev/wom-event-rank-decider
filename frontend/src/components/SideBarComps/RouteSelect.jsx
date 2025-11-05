@@ -39,7 +39,7 @@ const Route = ({ icon, route, isSelected, isOpen, onClick }) => {
             <button
                 className={`flex items-center justify-start gap-s w-full rounded px-2 py-1.5 text-sm cursor-pointer ${
                     isSelected
-                        ? "bg-primary/40 text-black shadow font-bold"
+                        ? "bg-primary/40 text-text shadow font-bold"
                         : "hover:bg-primary/40 bg-transparent text-textmuted shadow-none"
                     }`}
                 onClick={onClick}

@@ -9,11 +9,11 @@ const Dashboard = () => {
 
     return (
         <>
-            <div className="rounded-lg pb-4 flex flex-col bg-darkbackground shadow-xl h-[200vh]">
+            <div className="rounded-lg pb-4 flex flex-col bg-darkbackground shadow-2xl shadow-darkbackground h-screen border-border border">
                 <div className="px-8">
                     <Topbar />
                 </div>
-                <div className="px-8 py-2">
+                <div className="px-8 py-2 shadow-2xl">
                     <EventInfoBox />
                 </div>
                 <div className="pr-8 place-self-end">
