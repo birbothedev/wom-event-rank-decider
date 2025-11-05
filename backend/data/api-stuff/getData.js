@@ -1,5 +1,13 @@
-import { client } from "./initialFetch.js";
+import dotenv from 'dotenv';
+dotenv.config();
+
+import { WOMClient } from '@wise-old-man/utils';
 import { readFromFile, writeToFile, delay } from "../json-stuff/Output.js";
+
+export const client = new WOMClient({
+    apiKey: process.env.API_KEY,
+    userAgent: process.env.USER_AGENT
+});
 
 async function getCompetition(){
     const competetion = await client.competitions.getCompetitionDetails(109642);

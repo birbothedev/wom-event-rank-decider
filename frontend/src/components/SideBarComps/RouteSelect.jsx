@@ -53,13 +53,13 @@ const Route = ({ icon, route, isSelected, isOpen, onClick }) => {
             {isOpen && (
                 <div className="mt-2 space-y-1 rounded-lg">
                     <button className="w-full px-2 py-2 rounded hover:bg-primary/40 text-left text-xs">
-                        - Group 1
+                        - Snapshot 1
                     </button>
                     <button className="w-full px-2 py-2 rounded hover:bg-primary/40 text-left text-xs">
-                        - Group 2
+                        - Snapshot 2
                     </button>
                     <button className="w-full px-2 py-2 rounded hover:bg-primary/40 text-left text-xs">
-                        - Group 3
+                        - Snapshot 3
                     </button>
                 </div>
             )}

@@ -3,6 +3,7 @@ import EventInfoBox from './DashboardComps/EventInfoBox'
 import Topbar from './DashboardComps/Topbar'
 import { useState } from 'react'
 import { ExportEvent } from './Forms/ExportEvent'
+import CreateGroup from './Forms/CreateGroup'
 
 const Dashboard = () => {
     const [openForm, setOpenForm] = useState(false)
@@ -18,7 +19,10 @@ const Dashboard = () => {
                 </div>
                 <div className="pr-8 place-self-end">
                     <button className="gap-s rounded py-2 px-2 text-md cursor-pointer text-left hover:bg-primary/40">
-                        Create Group
+                        <CreateGroup />
+                    </button>
+                    <button className="gap-s rounded py-2 px-2 text-md cursor-pointer text-left hover:bg-primary/40">
+                        Create Snapshot
                     </button>
                     <button className="gap-s rounded py-2 px-2 text-md cursor-pointer text-left hover:bg-primary/40"
                     onClick={() => setOpenForm(true)}
