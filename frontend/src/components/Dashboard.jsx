@@ -10,7 +10,7 @@ const Dashboard = () => {
 
     return (
         <>
-            <div className="rounded-lg pb-4 flex flex-col bg-darkbackground shadow-2xl shadow-darkbackground h-screen border-border border">
+            <div className="rounded-lg pb-4 flex flex-col bg-darkbackground shadow-2xl shadow-darkbackground border-border border">
                 <div className="px-8">
                     <Topbar />
                 </div>
@@ -21,9 +21,9 @@ const Dashboard = () => {
                     <button className="gap-s rounded py-2 px-2 text-md cursor-pointer text-left hover:bg-primary/40">
                         <CreateGroup />
                     </button>
-                    <button className="gap-s rounded py-2 px-2 text-md cursor-pointer text-left hover:bg-primary/40">
+                    {/* <button className="gap-s rounded py-2 px-2 text-md cursor-pointer text-left hover:bg-primary/40">
                         Create Snapshot
-                    </button>
+                    </button> */}
                     <button className="gap-s rounded py-2 px-2 text-md cursor-pointer text-left hover:bg-primary/40"
                     onClick={() => setOpenForm(true)}
                     >

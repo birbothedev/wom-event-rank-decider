@@ -9,7 +9,7 @@ const CreateNew = ({isOpen, onClose}) => {
     const [file, setFile] = useState(null)
     const [filePreview, setFilePreview] = useState(null)
 
-    const longlimit = 1000
+    const longlimit = 6500
     const mediumlimit = 100
     const shortlimit = 50
 
@@ -113,15 +113,6 @@ const CreateNew = ({isOpen, onClose}) => {
                                 onChange={handleMediaChange}
                             />
                         </>
-                        {filePreview && (
-                            <div className="mt-2">
-                                {file.type.startsWith("image") ? (
-                                <img src={filePreview} alt="preview" className="max-w-full rounded-lg" />
-                                ) : (
-                                <video src={filePreview} controls className="max-w-full rounded-lg" />
-                                )}
-                            </div>
-                        )}
                     </form>
                     <button className="text-xl place-self-end cursor-pointer hover:bg-bordermuted/80 rounded-full px-3 pt-1 pb-2 flex text-center items-center justify-center hover:text-darkblue" 
                     onClick={() => {

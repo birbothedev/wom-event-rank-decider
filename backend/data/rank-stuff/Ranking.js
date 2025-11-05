@@ -58,7 +58,7 @@ async function calculateTotalPointValueFromWeights(){
     return results;
 }   
 
-async function rankAllPlayers(){
+export async function rankAllPlayers(){
     const playerPoints = await calculateTotalPointValueFromWeights();
     const ranks = {};
 

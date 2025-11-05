@@ -1,16 +1,9 @@
-import dotenv from 'dotenv';
-dotenv.config();
-
-import { WOMClient } from '@wise-old-man/utils';
 import { readFromFile, writeToFile, delay } from "../json-stuff/Output.js";
+import { client } from "../../server.js";
 
-export const client = new WOMClient({
-    apiKey: process.env.API_KEY,
-    userAgent: process.env.USER_AGENT
-});
-
-async function getCompetition(){
-    const competetion = await client.competitions.getCompetitionDetails(109642);
+//109642 
+export async function getCompetition(compID){
+    const competetion = await client.competitions.getCompetitionDetails(compID);
     return competetion;
 }
 
@@ -114,8 +107,6 @@ async function getPlayerGainsFromPeriod(){
                 }
             }
         }
-
-
         await delay(5000); 
     }
 

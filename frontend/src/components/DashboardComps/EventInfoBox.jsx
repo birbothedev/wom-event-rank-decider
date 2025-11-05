@@ -1,6 +1,7 @@
 import { useReactTable, getCoreRowModel, createColumnHelper, flexRender, getSortedRowModel } from "@tanstack/react-table"
 import { useState } from "react"
 import { FiChevronUp, FiChevronDown, FiTrash2 } from "react-icons/fi"
+import CreateNew from "../SideBarComps/CreateNew"
 
 const data = [
     { id: 1, name: "runescapeplayer1", rank: 1, group: "one" },
@@ -62,14 +63,15 @@ const columns = [
         cell: info => info.getValue(),
         enableSorting: true,
     }),
-    columnHelper.accessor("group", {
-        header: () => "Group",
-        cell: info => info.getValue(),
-        enableSorting: true,
-    }),
+    // columnHelper.accessor("group", {
+    //     header: () => "Group",
+    //     cell: info => info.getValue(),
+    //     enableSorting: true,
+    // }),
 ]
 
 const EventInfoBox = () => {
+    const [openForm, setOpenForm] = useState(false)
     const [rowSelection, setRowSelection] = useState({})
     const [sorting, setSorting] = useState([])
     const [tableData, setTableData] = useState(data)
@@ -96,7 +98,18 @@ const EventInfoBox = () => {
     return (
     <>
         <div className="flex flex-col h-[600px]">
-            <DeleteButton handleDelete={handleDelete} />
+            <div>
+                Event Description
+            </div>
+            <div className="flex flex-row justify-between py-2">
+                <DeleteButton handleDelete={handleDelete} />
+                <button 
+                    className="gap-s rounded py-2 px-2 text-sm cursor-pointer text-left hover:bg-primary/40"
+                    onClick={() => setOpenForm(true)}
+                >
+                    + New Event
+                </button>
+            </div>
             <div className="overflow-x-auto flex-1 rounded-lg border-2 border-border scrollbar-custom shadow-xl">
             <table className="min-w-full min-h-full divide-y divide-border">
                 <thead className="bg-primary/40 sticky top-0 z-10 backdrop-blur-sm">
@@ -147,6 +160,7 @@ const EventInfoBox = () => {
             </div>            
         </div>
 
+        <CreateNew isOpen={openForm} onClose={() => setOpenForm(false)}/>
     </>
     )
 }

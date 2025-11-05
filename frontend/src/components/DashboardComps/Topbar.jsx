@@ -15,7 +15,7 @@ const Topbar = () => {
         <div className="border-b-3 mt-2 mb-4 py-2 border-bordermuted">
             <div className="flex flex-row p-0.5 justify-between">
                 <div>
-                    <span className="text-lg font-bold block">👋 Hello, Clan Name!</span>
+                    <span className="text-lg font-bold block">👋 Event Name</span>
                     <span className="text-sm block">{formattedDate}</span>
                 </div>
             </div>
