@@ -1,10 +1,10 @@
 import fs from "fs/promises";
 import path from "path";
 
-const CACHE_DIR = path.resolve("../json-stuff");
+// const CACHE_DIR = path.resolve("../json-stuff");
 
-async function ensureCacheFile(fileName, initialData = []) {
-    const filePath = path.join(CACHE_DIR, `${fileName}.json`);
+async function ensureCacheFile(fileName, initialData = [], TEMP_DIR) {
+    const filePath = path.join(TEMP_DIR, `${fileName}.json`);
     try {
         await fs.access(filePath);
     } catch {
@@ -14,8 +14,8 @@ async function ensureCacheFile(fileName, initialData = []) {
     return filePath;
 }
 
-export async function writeToFile(data, fileName){
-    const filePath = path.join(CACHE_DIR, `${fileName}.json`);
+export async function writeToFile(data, fileName, TEMP_DIR){
+    const filePath = path.join(TEMP_DIR, `${fileName}.json`);
     try {
         await fs.writeFile(filePath, JSON.stringify(data, null, 2), "utf8");
         console.log(`Data written to ${filePath}`);

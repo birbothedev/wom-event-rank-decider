@@ -3,10 +3,10 @@ import { applyWeightsToPlayerBossCount } from "./BossWeights.js";
 import { applyWeightsToPlayerEfficiency } from "./EfficiencyWeights.js";
 import { applyWeightsToPlayerSkills } from "./SkillWeights.js";
 
-async function getAllPlayerWeights(){
-    const bossweights = await applyWeightsToPlayerBossCount();
-    const efficiencyweights = await applyWeightsToPlayerEfficiency();
-    const skillweights = await applyWeightsToPlayerSkills();
+export async function getAllPlayerWeights(filename, exportfilename, TEMP_DIR){
+    const bossweights = await applyWeightsToPlayerBossCount(filename);
+    const efficiencyweights = await applyWeightsToPlayerEfficiency(filename);
+    const skillweights = await applyWeightsToPlayerSkills(filename);
 
     const allWeightsMerged = bossweights.map(bossItem => {
         const playerName = bossItem.playerName;
@@ -38,7 +38,5 @@ async function getAllPlayerWeights(){
         };
     });
 
-    writeToFile(allWeightsMerged, 'weighted-data');
+    writeToFile(allWeightsMerged, exportfilename, TEMP_DIR);
 }
-
-getAllPlayerWeights();

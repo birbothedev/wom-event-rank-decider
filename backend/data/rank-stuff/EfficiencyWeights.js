@@ -10,8 +10,8 @@ function weighEfficiency(hours){
     else return 0;
 }
 
-export async function applyWeightsToPlayerEfficiency(){
-    const playerData = await readFromFile('cleaned-data');
+export async function applyWeightsToPlayerEfficiency(filename){
+    const playerData = await readFromFile(filename);
 
     const playerEfficiency = playerData.map(player => ({
         playerName: player.playerName,

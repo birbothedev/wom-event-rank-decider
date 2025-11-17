@@ -49,8 +49,8 @@ function weighSkillsByType(skillType, pointMultiplier){
     return averagedPointsValue;
 }
 
-export async function applyWeightsToPlayerSkills(){
-    const playerData = await readFromFile('cleaned-data');
+export async function applyWeightsToPlayerSkills(filename){
+    const playerData = await readFromFile(filename);
 
     const playerSkills = playerData.map(player => ({
         playerName: player.playerName,

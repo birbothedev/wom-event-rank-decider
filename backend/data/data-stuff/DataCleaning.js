@@ -5,8 +5,8 @@ export async function getParsedDataFromFile(filename){
     return data;
 }
 
-async function getEndValuePerSkill(){
-    const fullData = await getParsedDataFromFile('competition-data');
+async function getEndValuePerSkill(filename){
+    const fullData = await getParsedDataFromFile(filename);
     
     const playerSkillData = fullData.map(player => ({
         playerName: player.playerName,
@@ -21,8 +21,8 @@ async function getEndValuePerSkill(){
     return playerSkillData;
 }
 
-async function getEndValuePerBossKC(){
-    const fullData = await getParsedDataFromFile('competition-data');
+async function getEndValuePerBossKC(filename){
+    const fullData = await getParsedDataFromFile(filename);
 
     const playerBossData = fullData.map(player => ({
         playerName: player.playerName,
@@ -37,8 +37,8 @@ async function getEndValuePerBossKC(){
     return playerBossData;
 }
 
-async function getPlayerEfficiency(){
-    const fullData = await getParsedDataFromFile('competition-data');
+async function getPlayerEfficiency(filename){
+    const fullData = await getParsedDataFromFile(filename);
 
     const playerEfficiencyData = fullData.map(player => ({
         playerName: player.playerName,
@@ -55,10 +55,10 @@ async function getPlayerEfficiency(){
 
 // TODO: create function for getting player account type (main or iron)
 
-async function combineDataAndWriteToFile(){
-    const playerSkillData = await getEndValuePerSkill();
-    const playerBossData = await getEndValuePerBossKC();
-    const playerEfficiencyData = await getPlayerEfficiency();
+export async function combineDataAndWriteToFile(filename, exportfilename, TEMP_DIR){
+    const playerSkillData = await getEndValuePerSkill(filename);
+    const playerBossData = await getEndValuePerBossKC(filename);
+    const playerEfficiencyData = await getPlayerEfficiency(filename);
 
     const allDataMerged = playerSkillData.map(skillItem => {
         const playerName = skillItem.playerName;
@@ -75,7 +75,5 @@ async function combineDataAndWriteToFile(){
         };
     });
 
-    writeToFile(allDataMerged, 'cleaned-data');
+    writeToFile(allDataMerged, exportfilename, TEMP_DIR);
 }
-
-combineDataAndWriteToFile();

@@ -7,8 +7,8 @@ export async function getCompetition(compID){
     return competetion;
 }
 
-async function getCompetitionDates(){
-    const compData = await getCompetition();
+async function getCompetitionDates(compID){
+    const compData = await getCompetition(compID);
 
     const startDate = compData.startsAt;
     const endDate = compData.endsAt;
@@ -24,7 +24,7 @@ async function getPlayerAccountType(playerName){
     return details.type; 
 }
 
-async function getPlayerInfoFromCompetition(refresh = false) {
+async function getPlayerInfoFromCompetition(compID, refresh = false) {
     if (!refresh) {
         const cached = await readFromFile('cachefile');
         if (cached && cached.length) {
@@ -34,7 +34,7 @@ async function getPlayerInfoFromCompetition(refresh = false) {
     }
 
     console.log("📡 Fetching competition data...");
-    const compData = await getCompetition();
+    const compData = await getCompetition(compID);
 
     const players = [];
     for (const p of compData.participations) {
@@ -61,9 +61,9 @@ async function getPlayerInfoFromCompetition(refresh = false) {
 }
 
 
-async function getPlayerGainsFromPeriod(){
-    const players = await getPlayerInfoFromCompetition(true);
-    const dates = await getCompetitionDates();
+export async function getPlayerGainsFromPeriod(compID, exportfilename, TEMP_DIR){
+    const players = await getPlayerInfoFromCompetition(compID, true);
+    const dates = await getCompetitionDates(compID);
 
     const startDate =  new Date(dates.startDate).toISOString();
     const endDate = new Date(dates.endDate).toISOString();
@@ -110,15 +110,8 @@ async function getPlayerGainsFromPeriod(){
         await delay(5000); 
     }
 
-    await writeToFile(playerDetails, 'competition-data');
+    await writeToFile(playerDetails, exportfilename, TEMP_DIR);
     console.log(`fetched gains for ${playerDetails.length} players. data saved to competition-data.json.`);
 
     return playerDetails;
 }
-
-
-async function main(){
-    await getPlayerGainsFromPeriod();
-}
-
-main();
